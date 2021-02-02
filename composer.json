@@ -1,0 +1,22 @@
+{
+    "name": "tofun/apollo_public_sdk",
+    "description": "apollo_public_sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "czw",
+            "email": "610020492@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApolloPublicSdk\\Src\\": "src/",
+            "ApolloPublicSdk\\test\\": "test/"
+        }
+    },
+    "version": "1.0.0"
+}
