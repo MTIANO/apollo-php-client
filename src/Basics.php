@@ -58,6 +58,7 @@ class Basics
 			//获取毫秒级时间戳
 			$time = (string)sprintf('%.0f', microtime('string') * 1000);
 			$cfgs = [];
+			//
 			foreach (self::$NameSpaces as $namespace) {
 				$pathWithQuery = '/configs/' . self::$AppId . '/' . self::$Cluster . '/';
 				$url = self::$ServerUrl . $pathWithQuery;
